@@ -1,0 +1,88 @@
+#body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* touch bar*/
+.navication {
+    display: flex;
+    background-color: rgb(44, 44, 44);
+}
+
+.navication-content {
+    text-decoration: none;
+    color: white;
+    padding: 20px 35px 20px 35px;
+    transition: 0.3s;
+}
+
+.display-color {
+    background-color: rgb(63, 192, 192);
+}
+
+.navication-content:hover {
+    text-decoration: none;
+    background-color: rgb(63, 192, 192);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/**/
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+    color: rgb(63, 192, 192) !important;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.input-group {
+    margin: 20px 0px 20px 0px;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px 20px 0px 0px;
+    align-self: center;
+}
+
+.type {
+    outline: none;
+    border-radius: 10px;
+    border: 1px dashed black;
+    width: 250px;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.type-name-1 {
+    margin: 0px 25px 0px 0px;
+}
+
+.type-name-2 {}
+
+.type-name-3 {
+    margin: 0px 35px 0px 0px;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 5px 28.5px 5px 28.5px;
+    background-color: rgb(63, 192, 192);
+    border-radius: 1px solid black;
+    border-radius: 10px !important;
+    margin: 20px 0px 10px 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
