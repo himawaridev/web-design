@@ -36,7 +36,7 @@ const postCreateUser = async (req, res) => {
     VALUES (?, ?, ?);`, [email, name, city]
     );
     console.log('>>> req.email = ', results);
-    res.send('create users success');
+    res.redirect('/');
 }
 
 const postUpdateUser = async (req, res) => {
