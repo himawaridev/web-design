@@ -18,7 +18,7 @@
     <div class="table-content">
         <div class="title">List-user</div>
         <table class="title-table">
-            <tr>
+            <tr class="title-content">
                 <th>ID</th>
                 <th>Email</th>
                 <th>Name</th>
@@ -40,9 +40,9 @@
                         <%= user.city %>
                     </td>
                     <td>
-                        <a href="/update/<%= user.id %>">Edit</a>
+                        <a href="/update/<%= user.id %>"><button class="edit">Edit</button></a>
                         <form action="/delete-user/<%= user.id %>" method="POST">
-                            <button>Delete</button>
+                            <button class="delete">Delete</button>
                         </form>
 
                     </td>
