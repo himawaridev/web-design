@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>delete a users</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body id="body">
+    <div class="topnav">
+        <a href="/">Home</a>
+        <a href="/create">create user</a>
+    </div>
+
+    <div class="form">
+        <form action="/delete-user" method="POST">
+            <legend class="title">delete a users</legend>
+            <div class="input-group d-none">
+                <label class="type-name-1" id="email-id">Id: </label>
+                <input name="userId" class="type" type="text" value="<%=userEdit.id %>" />
+            </div>
+            <div class="input-group">
+                <label class="type-name-1" id="email-id">Are you sure delete this user with Email: </label>
+                <input name="email" class="type" type="text" value="<%= userEdit.email %>" />
+            </div>
+            <div class="action">
+                <button class="button">Confirm</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
