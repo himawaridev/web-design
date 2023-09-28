@@ -1,5 +1,5 @@
 Step one: install express dotenv ejs mysql2 nodemon
-syntax is: npm install express dotenv ejs mysql2 nodemon
+syntax is: npm install express dotenv ejs mysql2 nodemon (new version)
 
 download: Docker:  https://docs.docker.com/desktop/install/windows-install/ (new version - 64bit)
           DBeaver: https://dbeaver.io/download/ (new version - 64bit)
