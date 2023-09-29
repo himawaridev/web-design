@@ -1,3 +1,11 @@
+# frontend
+# backend
+# javascript
+# nodejs
+# ejs
+# css
+# sql
+
 Step one: install express dotenv ejs mysql2 nodemon
 syntax is: npm install express dotenv ejs mysql2 nodemon (new version)
 
